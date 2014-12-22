@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'parkavenue';
+  src: url('../font/ParkAvenueNormalA.eot?60518104');
+  src: url('../font/ParkAvenueNormalA.eot?60518104#iefix') format('embedded-opentype'),
+       url('../font/ParkAvenueNormalA.woff?60518104') format('woff'),
+       url('../font/ParkAvenueNormalA.ttf?60518104') format('truetype'),
+       url('../font/ParkAvenueNormalA.svg?60518104#parkavenue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  font-family: parkavenue;
+  font-size: 18pt;
+/*
+  background-image: url('../images/TrekWorld_Nicholas-Roerich_Kanchendzonga-1944.jpg');
+  */
+}
+
+* {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+
+#main{
+/*  display: none; */
+  font-size: 14pt;
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+  border: 1px solid #666;
+  padding: 20px;
+  background:rgba(255, 255, 255, 0.3);
+  color: #0E2A99;
+  margin-top: 50px;
+}
+
+@media (max-width: 480px) {
+  #main{  
+    font-size: 18pt;
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  #main{  
+    font-size: 30pt;
+    width: 500px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+}
+
+#main {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.5s;
+/*  -webkit-animation-iteration-count: infinite; */
+}
