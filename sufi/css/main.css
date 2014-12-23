@@ -12,35 +12,41 @@
 html{
   font-family: parkavenue;
   font-size: 18pt;
-/*
-  background-image: url('../images/TrekWorld_Nicholas-Roerich_Kanchendzonga-1944.jpg');
-  */
 }
 
 * {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 
+
+/* mobile landscape */
 #main{
 /*  display: none; */
-  font-size: 14pt;
+  border: 1px solid #666;
+  border-radius: 7px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  
+  font-size: 15pt;
   text-align: center;
   width: 350px;
   margin: 0 auto;
-  border: 1px solid #666;
   padding: 20px;
   background:rgba(255, 255, 255, 0.3);
   color: #0E2A99;
   margin-top: 50px;
 }
 
+/* mobile portrait */
 @media (max-width: 480px) {
   #main{  
-    font-size: 18pt;
+    font-size: 20pt;
     width: 250px;
     padding: 10px;
     margin-top: 20px;
   }
 }
 
+/* desktop browser */
 @media (min-width: 900px) {
   #main{  
     font-size: 30pt;
