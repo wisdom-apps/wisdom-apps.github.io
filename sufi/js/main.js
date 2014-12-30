@@ -1,7 +1,8 @@
 app = angular.module('sufi', []);
 
 app.images = images;
-app.items = items['en']; // TODO
+app.items = items['en'];
+app.items = items['ru'];
 app.itemIndex = 0;
 
 app.getRandomImage = function(){
