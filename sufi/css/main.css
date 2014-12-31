@@ -18,8 +18,8 @@ html{
 
 
 /* mobile landscape */
-#main{
-/*  display: none; */
+#index, #main{
+  display: none;
   border: 1px solid #666;
   border-radius: 7px;
   box-sizing: border-box;
@@ -38,7 +38,7 @@ html{
 
 /* mobile portrait */
 @media (max-width: 480px) {
-  #main{  
+  #index, #main{  
     font-size: 20pt;
     width: 250px;
     padding: 10px;
@@ -48,7 +48,7 @@ html{
 
 /* desktop browser */
 @media (min-width: 900px) {
-  #main{  
+  #index, #main{  
     font-size: 30pt;
     width: 500px;
     padding: 20px;
@@ -56,7 +56,7 @@ html{
   }
 }
 
-#main {
+#index, #main {
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 0.5s;
 /*  -webkit-animation-iteration-count: infinite; */
